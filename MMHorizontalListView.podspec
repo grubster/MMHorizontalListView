@@ -10,29 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "MMHorizontalListView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MMHorizontalListView."
-  s.description      = <<-DESC
-                       An optional longer description of MMHorizontalListView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MMHorizontalListView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "An horizontal list scroll view designed to reuse views."
+  s.homepage         = "https://github.com/grubster/MMHorizontalListView"
   s.license          = 'MIT'
   s.author           = { "Pedro Souza" => "pedronicholas.souza@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MMHorizontalListView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/grubster/MMHorizontalListView", :tag => "v0.1.0" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'MMHorizontalListView' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
