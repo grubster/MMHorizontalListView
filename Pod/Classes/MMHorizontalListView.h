@@ -180,5 +180,5 @@ typedef enum {
  *  @param animated - deselect the cell using animation (the cell it self has to implement the animation)
  */
 - (void)deselectCellAtIndex:(NSInteger)index animated:(BOOL)animated;
-
+- (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView;
 @end

@@ -32,6 +32,7 @@
 // Cell class extension to access properties setter
 @interface MMHorizontalListViewCell ()
 @property (nonatomic, readwrite, assign) NSInteger index;
+- (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView;
 @end
 
 @implementation MMHorizontalListView

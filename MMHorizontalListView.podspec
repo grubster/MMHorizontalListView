@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/grubster/MMHorizontalListView"
   s.license          = 'MIT'
   s.author           = { "Pedro Souza" => "pedronicholas.souza@gmail.com" }
-  s.source           = { :git => "https://github.com/grubster/MMHorizontalListView", :tag => "v0.1.0" }
+  s.source           = { :git => "https://github.com/grubster/MMHorizontalListView.git", :tag => "v0.1.0" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
