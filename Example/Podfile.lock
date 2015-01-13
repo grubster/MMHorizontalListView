@@ -1,0 +1,14 @@
+PODS:
+  - MMHorizontalListView (0.1.0)
+
+DEPENDENCIES:
+  - MMHorizontalListView (from `../`)
+
+EXTERNAL SOURCES:
+  MMHorizontalListView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MMHorizontalListView: 70069677b4c54bd1b7cfb5690d0c5e9a75bac779
+
+COCOAPODS: 0.35.0
