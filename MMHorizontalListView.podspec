@@ -16,9 +16,10 @@ Pod::Spec.new do |s|
   s.author           = { "Pedro Souza" => "pedronicholas.souza@gmail.com" }
   s.source           = { :git => "https://github.com/grubster/MMHorizontalListView.git", :tag => "v0.1.0" }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/*.{h,m}'
+  s.public_header_files = ''Pod/Classes/*.h''
   s.frameworks = 'UIKit'
 end
