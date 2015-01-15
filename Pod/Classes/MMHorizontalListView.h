@@ -109,17 +109,14 @@ typedef enum {
  */
 @interface MMHorizontalListView : UIScrollView <UIScrollViewDelegate, UIGestureRecognizerDelegate> {
     
-    @private
-    
-    __weak id<UIScrollViewDelegate> _scrollViewDelegate;
-    __weak id<MMHorizontalListViewDelegate> _horizontalListDelegate;
-    
     NSRecursiveLock *_mainLock;
     NSMutableArray *_cellQueue;
     NSMutableDictionary *_visibleCells;
     NSMutableArray *_cellFrames;
     NSMutableArray *_selectedIndexes;
     NSMutableArray *_highlightedIndexes;
+    __weak id<UIScrollViewDelegate> _scrollViewDelegate;
+    __weak id<MMHorizontalListViewDelegate> _horizontalListDelegate;
 }
 
 @property (nonatomic, unsafe_unretained) id<MMHorizontalListViewDelegate> delegate;     /**< The MMHorizontalListViewDelegate is conform to UIScrollView and should be implemented to handle cells selections */
